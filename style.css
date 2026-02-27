@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.traffic-light{
+    background: #222;
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 12px;
+}
+
+.light{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin:auto;
+}
+
+.red{
+    background: red;
+}
+
+.yellow{
+    background: gold;
+}
+
+.green{
+    background: limegreen;
+}
